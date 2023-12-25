@@ -15,7 +15,8 @@ from facefusion.vision import (
     read_image,
     detect_fps,
 )
-from facefusion.utilities import resolve_relative_path, conditional_download
+from facefusion.filesystem import resolve_relative_path
+from facefusion.download import conditional_download
 
 CONTENT_ANALYSER = None
 THREAD_LOCK: threading.Lock = threading.Lock()
