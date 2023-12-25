@@ -1,3 +1,9 @@
 .assets
 .idea
 .vscode
+
+# Virtualenv
+venv
+
+# all the files that end with .pyc
+*.pyc
